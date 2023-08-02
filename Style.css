@@ -1,0 +1,151 @@
+navbar{
+    position:fixed;
+}
+.nav-link{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5665;
+    
+}
+.container{
+    margin-top:80px;
+    display:flex;
+    /* flex-wrap: nowrap; */
+}
+.about1{
+    padding:20px;
+    float: left;
+    max-width: 555px;
+    width:90%;
+}
+
+.about2{
+    float:left;
+    width:100%;
+    
+}
+.about2 img{
+    /* padding:20px; */
+    margin:50px;
+    width:80%;
+}
+.about1 .btn-primary{
+    background-color: orangered;
+    width: 150px;
+    text-align: left;
+}
+.feature-left img{
+    width: 90%;
+}
+.feature-right{
+    padding:10px;
+    margin-top: 20px;
+    width:80%;
+}
+body{
+    font-family: "Rubik", sans-serif;
+    color: #4f5665;
+    font-size: 1.4rem;
+}
+section {
+    padding: 50px 0;
+}
+
+/*Pricing Section*/
+.plans{
+    background-color: #fbfbfb;
+}
+.section-header{
+    margin: 0 auto 60px;
+    text-align: center;
+}
+.section-title{
+    color: #0b132a;
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.section-subtitle{
+    line-height: 30px;
+    color: #4f5665;
+}
+.plan-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plan{
+    padding: 8rem 4rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+    width: 100%;
+    align-items: center;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    padding: 4rem;
+    margin-bottom: 20px;
+}
+img {
+    border-style: none;
+}
+.plan--recommended {
+    border-color: #f53838;
+}
+.plan h3 {
+    font-size: 1.8rem;
+    margin: 30px 0;
+    color: #0b132a;
+    font-weight: bold;
+}
+.plan-features ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.plan-features ul li {
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: list-item;
+    color: #4f5665;
+}
+.plan-features ul li::before {
+    content: url(../images/check-icon-2.svg);
+    margin-right: 25px;
+}
+.plan-bottom {
+    text-align: center;
+    margin-top: auto;
+}
+.plan-price {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #0b132a;
+}
+.plan-price span {
+    color: #4f5665;
+    font-weight: 400;
+}
+.plan-bottom .btn-outline-primary{
+    border-radius: 100px; 
+    border: 2px solid #f53838; 
+    color: #f53838; 
+    width: 180px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 10px;
+}
+.plan-bottom .btn-outline-primary:hover{
+    border: 2px solid #f53838; 
+    background-color: #f53838;
+    color: #ffffff;
+}
+
+/* Location Section */
+.locations-map-wrapper img {
+    height: 100%;
+    width: 100%;
+}
